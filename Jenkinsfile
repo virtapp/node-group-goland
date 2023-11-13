@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "registry.hub.docker.com/finonex/node-group-autoscale-goland"
+    registry = "registry.hub.docker.com/finonex/node-group-goland"
     registryCredential = 'docker-hub-credentials'
     dockerImage = ''
   }
